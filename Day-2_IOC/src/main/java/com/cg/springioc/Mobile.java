@@ -17,7 +17,7 @@ public class Mobile {
 		s1.data();  */
 		
 		ApplicationContext a = new ClassPathXmlApplicationContext("beans.xml");
-		System.out.println("cinfig....loaded!");
+		System.out.println("config....loaded!");
 		
 		Sim obj=a.getBean("sim",Sim.class);
 		obj.calling();
